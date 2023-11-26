@@ -1,0 +1,7 @@
+#! /usr/bin/env node
+
+// Pass configuration to application
+require('../')({
+	port: 8000,
+	host: 'localhost',
+})
